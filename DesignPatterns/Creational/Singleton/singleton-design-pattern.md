@@ -238,6 +238,4 @@ Singleton is a creational design pattern that ensures only one instance of a cla
 👉 Safest → Enum Singleton
 👉 Always mention → Breaking Scenarios in interviews
 
-https://chatgpt.com/backend-api/estuary/content?id=file_00000000748c720b9af8116d715f090f&ts=493499&p=fs&cid=1&sig=403a542436ca9ce3da75a6a97df46f5ae5c4ca4d339f3544d65f93d8fa7ebf5e&v=0
-
 
