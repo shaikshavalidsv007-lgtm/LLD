@@ -140,30 +140,37 @@ enum Singleton {
 1. Logger
 One logger instance across app
 Example: log4j / slf4j
+
 2. Database Connection
 Shared connection pool
 Avoids expensive object creation
+
 3. Configuration Manager
 Reads config file once
 Shared everywhere
+
 4. Cache (Redis / In-memory)
 One cache manager
+
 5. Thread Pool
 Controls number of threads globally
+
 ⚖️ Advantages
 Memory efficient
 Controlled access
 Global availability
+
 ❌ Disadvantages
 Hard to unit test
 Global state (bad design sometimes)
 Violates Single Responsibility Principle
+
 🚫 When NOT to Use
 Microservices (prefer Dependency Injection)
 When multiple instances needed
 Highly testable systems
-🧠 Interview Quick Summary
 
+🧠 Interview Quick Summary
 Singleton ensures a class has only one instance and provides a global access point. It can be broken using Reflection, Serialization, and Cloning. The safest way to implement Singleton is using Enum, while Bill Pugh is the best practical approach.
 
 🔥 Final Takeaway
