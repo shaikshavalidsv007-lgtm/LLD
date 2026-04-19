@@ -239,5 +239,6 @@ Singleton is a creational design pattern that ensures only one instance of a cla
 👉 Always mention → Breaking Scenarios in interviews
 
 
-<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/b719b30e-eb94-47fd-8b0c-77c63a008f24" />
+![Singleton](https://media.geeksforgeeks.org/wp-content/uploads/20240111130627/Singleton-Design-Pattern-in-Java-(1).jpg)
+
 
